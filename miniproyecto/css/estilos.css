@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, Arial, Helvetica, Arial;
+    text-decoration: none;
+}
+body{
+    background: #000ccc;
+}
+.alerta{
+    padding: 3px;
+    color: #fff;
+    width: 93%;
+    background: #0f9b00;
+    margin-bottom: 15px;
+    margin-left: 2px;;
+}
+.alerta-error{
+    background: #ff0000;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+#cabecera{
+    width: 80%;
+    height: auto;
+    background: #0009af;
+    margin: 0px auto;
+}
+#logo{
+    float: left;
+    width: 540px;
+    height: 110px;
+}
+#logo a{
+    font-family: helvetica;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #ff0000;
+    text-shadow: 0px 0px 0px black, 2px 2px 0px black, 3px 3px 0px black;
+    transition: all 500ms;
+    line-height: 90px;
+    margin-left: 10px;
+}
+#logo a:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 0px black, -2px -2px 0px black, -3px -3px 0px black;
+}
+#menu{
+    clear: both;
+    height: 45px;
+    width: 100%;
+    background: #00006d;
+    overflow: hidden;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    line-height: 45px;
+    border-right: 1px solid #0000ff;
+}
+#menu ul li:hover{
+    background: #0000ad;
+}
+#menu ul li a{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+#contenedor{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#barra{
+    color: #fff;
+    float: right;
+    width: 25%;
+    height: auto;
+}
+#principal{
+    float: left;
+    width: 70%;
+    min-height: 470px;
+    background: #0000ef;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: hidden;
+}
+#principal h1{ 
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+}
+#principal h2{
+    margin-top: 10px;
+    color: #ffff00;
+    text-shadow: 3px 3px 3px #000;
+}
+#principal h3{
+    color: #23ff00;
+    text-shadow: 3px 3px 3px #000;
+}
+#principal h4{
+    color: #fff;
+}
+#principal p{
+    font-size: 14px;
+    margin-top: 5px;
+    color: #fff;
+}
+#principal a{
+    color: #ffff00;
+}
+#principal a:hover{
+    color: #fff;
+}
+#ver a{
+    display: block;
+    border-radius: 2px;
+    padding: 15px;
+    color: #fff;
+    background: #ff0000;
+    cursor: pointer;
+    width: 160px;
+    margin: 0px auto;
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px #000;
+}
+.bloque{
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    background: #0000ef;
+    padding: 10px; 
+    border-radius: 5px;
+}
+.bloque h3{
+    margin-bottom: 10px;
+}
+label,
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+label{
+    color: #fff;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    margin-bottom: 10px;
+    padding: 1px;
+}
+input[type="submit"],
+.boton{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 2px;
+    color: #000;
+    box-shadow: 2px 2px 2px #000;
+    cursor: pointer;
+    padding: 7px;
+}
+input[type="submit"]{
+    font-size: 15px;
+    background: #0000ff;
+    width: 40%;
+    color: #fff;
+    border-radius: 5px;
+}
+#principal input[type="submit"]{
+    width: 20%;
+}
+#principal input[type="text"]{
+    width: 30%;
+}
+#principal input[type="email"]{
+    width: 30%;
+}
+.boton{
+    text-align: center;
+    width: 130px;
+    color: #fff;
+}
+.entradas{
+    background: #004403;
+}
+.categorias{
+    background: #5b3800;
+}
+.mostrar{
+    background: #170044;
+}
+.cerrar{
+    background: #440000;
+}
+.fecha{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+footer{
+    color: #fff;
+    clear: both;
+    width: 75%;
+    margin: 0px auto;
+    background: #0000ef;
+    border-bottom: none;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
